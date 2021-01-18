@@ -1,7 +1,9 @@
 package dev.akif.kodluyoruz.streetfinder
 
-trait StreetFinder {
+trait  StreetFinder {
   def findStreets(names: Set[String]): List[String]
 }
+
+
 
 
